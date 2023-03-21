@@ -1,0 +1,34 @@
+In the part of extension, more return functions are implemented.
+Grammer rules are below:
+<INTFUNC>  ::= "MINUS" <LIST> <LIST> | "MULTIPLY" <LIST> <LIST> | "DIVISION" <LIST> <LIST>
+
+MINUS can execute minus operation of two LIST parameters
+1.When one parameter equals to NIL, executing minus operation will treat it as number.
+2.When one parameter equals to a literal of the following forms: '1' '2' '-2' '-1', executing minus operation will treat it as 1, 2, -1, -2 respectively.
+3.When one parameter equals to a literal of the following forms: '(0)' '((1))', executing minus operation will cause an interpreter false, because program can not understand what number of this kind  of literal represents.
+4.When parameter is a bool return function value. True represents 1 and false represents 0.
+5.When parameter is a int return function value. The value of parameter just equals to the return value.
+6.When parameter is a lisp return value, such as car, cdr, cons. It is similar to literal. The lisp will be transformed to a literal then judge whether it is a legal literal. Then execute minus operation.
+
+
+Similarly, MULTIPLY,DIVISION and PLUS implement the same rule with the minus.
+
+Importantly, relevant testing code is below.
+(
+  (PRINT (PLUS '999' NIL))
+  (PRINT (PLUS (MINUS '999' NIL) (PLUS '999' '1')))
+  (PRINT (PLUS (MULTIPLY NIL '2') (DIVISION '999' '2')))
+  (PRINT (DIVISION NIL '3'))
+
+  (PRINT (PLUS(LESS '0' '1') (GREATER '0' '1')))
+  (PRINT (DIVISION(LESS '0' '1') (EQUAL '1' '1')))
+  (PRINT (MULTIPLY(LESS '0' '1') (GREATER '0' '1')))
+  (PRINT (MINUS(LESS '0' '1') (GREATER '0' '1')))
+
+  (SET A (CAR '(1 2 3 4 5)')))
+  (PRINT A)
+  (PRINT (PLUS A (GREATER '0' '1')))
+  (PRINT (DIVISION A (EQUAL '1' '1')))
+  (PRINT (MULTIPLY A (GREATER '0' '1')))
+  (PRINT (MINUS A (GREATER '0' '1')))
+)

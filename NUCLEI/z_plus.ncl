@@ -1,0 +1,13 @@
+(
+   (SET A '1')
+   (SET B '2')
+   (PRINT(PLUS A B))
+   (SET A (CAR '(0 1)'))
+   (SET B NIL)
+   (PRINT(PLUS A B))
+   (PRINT(PLUS '0' '1'))
+   (PRINT(PLUS (CAR '(0 1)') NIL))
+   (PRINT(PLUS (LESS '0' '1') (LESS '1' '0')))
+   (PRINT(PLUS (GREATER '0' '1') (GREATER '1' '0')))
+   (PRINT(PLUS (EQUAL '0' '0') (EQUAL '1' '0')))
+)

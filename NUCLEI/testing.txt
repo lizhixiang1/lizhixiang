@@ -1,0 +1,7 @@
+File z_test1, z_test2, z_test3, z_test4 are used for white box test.
+White box test function is the fist function that main function will call.In the white box test, nearly all the main function with a return value are tested. But some function are not easy to test one by one, because they are focus in the wholeness.
+
+Therefore I prepare some .ncl files to test the wholeness of all these functions. These fils name are  z_car_cdr_cons.ncl,z_bool.ncl, z_length.ncl, z_plus_interpFail.ncl, z_plus.ncl 
+
+
+When parse and interpreter all these .ncl files, nearly all the usages of the function named print, set, car, cdr ,cons, length, equal, greater, less, while, if are included. More importantly, various parameters to these functions are included.
