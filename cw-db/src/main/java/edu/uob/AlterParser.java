@@ -1,5 +1,5 @@
 package edu.uob;
-
+//codes
 public class AlterParser extends GeneralParse{
     public AlterParser(String[] tokens)throws Exception{
         check(tokens);
