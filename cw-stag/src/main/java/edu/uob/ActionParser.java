@@ -3,7 +3,6 @@ import java.util.ArrayList;
 import java.util.Map;
 
 public class ActionParser {
-    //please transfer command to lower case
     public GameAction parserAction(String[] commandTokens,String command){
         ArrayList<GameAction> action;
         boolean flag;
