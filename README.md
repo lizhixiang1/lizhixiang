@@ -17,6 +17,17 @@
   <p>这是一个Lisp语言的解释器和解析器。用来判断一段Lisp语言的语法正确与否，以及对此段代码进行执行。</p>
   <p>This is an interpreter and parser for the Lisp programming language. It is used to determine the correctness of the syntax of a piece of Lisp code and to execute the code accordingly.</p>
   <p><strong>点击进入（Click to get into)</strong></p> https://github.com/lizhixiang1/lizhixiang/tree/main/NUCLEI
+  
+  ### 4. 文本探险游戏（Text Advanture Game)
+   <p>这是一个简单的文本探险游戏。玩家通过输入一系列命令，便可以在不同的位置之间穿梭，同时可以对该位置上的物品进行一些列的操作。同时也可以执行一些列的动作，这个过程可能会消耗一些物品，也可能会产生。整个游戏支持多个玩家同时出现，并且玩家之间相互可见</p>
+   <p>This is a simple text adventure game where players can move between different locations and perform various actions on objects at each location by inputting commands. Players can also execute a series of actions, which may consume or produce items. The game supports multiple players who can appear simultaneously and see each other in the game world.</p>
+   <p><strong>点击进入（Click to get into)</strong></p> https://github.com/lizhixiang1/lizhixiang/tree/main/cw-stag
+   
+   ### 5. 图书馆藏资源查询应用（A Library Resource Search Application)
+   <p>这是一个利用Socket，多线程以及数据库等技术实现的图书馆馆藏资源查询应用。可以依据图书作者以及图书馆地址，查询到当前图书馆内该作者的书籍馆藏资源。</p>
+   <p>This is a simple text adventure game where players can move between different locations and perform various actions on objects at each location by inputting commands. Players can also execute a series of actions, which may consume or produce items. The game supports multiple players who can appear simultaneously and see each other in the game world.</p>
+   <p><strong>点击进入（Click to get into)</strong></p> https://github.com/lizhixiang1/lizhixiang/tree/main/templates
+  
 
 
 
