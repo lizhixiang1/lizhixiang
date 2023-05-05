@@ -11,7 +11,7 @@ public class MaterialCalculation {
 
     public void calculation(InteractiveInterface interactiveInterface){
         SteelPlate steelPlate = new SteelPlate();
-        C c = new C();
+        C c =new C();
         DecimalFormat decimalFormat = new DecimalFormat("#0.000");
         String kindOfChannleBar = interactiveInterface.getKindOfChannleBar();
         double p = c.getP(kindOfChannleBar);
