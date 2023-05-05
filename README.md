@@ -10,7 +10,7 @@
   ### 2. 数据库服务器(Database Server)
   <p>This database server is very similar to mainstream databases, but with simplified functionality. It can perform CRUD operations, and all data will be permanently saved in file format. Each time the database is opened, the data is automatically loaded from the file (table) into an object of a class. After each CRUD operation, the corresponding object's attribute values are modified, and the new data is written back to the file to prevent data from being updated in case of sudden interruptions.</p>
   <p>这个数据库服务器与当前主流的数据库非常相似，不过在功能上进行了简化。可以执行增删查改操作。所有的数据会以文件的形式被永久保存。每一次打开数据库，自动从文件（表）中加载数据到一个类的对象中。每一次执行增删查改操作以后，除了将对应的对象中一些属性值修改，同时将新的数据数据重新写回文件中，以防突然的中断导致数据没有及时更新。</p>
-  <p><strong>点击进入（Click to get into)</strong></p> (https://github.com/lizhixiang1/lizhixiang/tree/main/AutoDesigh-Stair)
+  <p><strong>点击进入（Click to get into)</strong></p> (https://github.com/lizhixiang1/lizhixiang/tree/main/cw-db)
   
   ### 3. Lisp编程语言的解析器和解释器（Lisp programming language parser and interpreter)
   
